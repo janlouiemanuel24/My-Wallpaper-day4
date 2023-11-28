@@ -1,0 +1,81 @@
+body {
+    color: #fff;
+  background: linear-gradient(to top, rgba(0,0,0,0.50)50%,rgba(0,0,0,0.50)50%), url(../img/profile-page.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+    .fa-solid
+    {
+        font-size: 30px;
+        margin: 40px 30px;
+        color: #fff;
+    }
+.logout
+{
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    float: right;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+}
+.profile-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+background: rgba( 0, 0, 0, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 400px;
+}
+
+.profile-header {
+    text-align: center;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-name {
+    margin: 0;
+}
+
+.profile-details {
+    margin-top: 20px;
+}
+
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
