@@ -5,7 +5,8 @@ body {
 }
 
 body {
-    background: url(../img/loginpage.jpg) center/cover no-repeat;
+        background: linear-gradient(to top, rgba(0,0,0,0.50)50%,rgba(0,0,0,0.50)50%), url(../img/loginpage.jpg) center/cover no-repeat;
+
 }
 
 .container {
